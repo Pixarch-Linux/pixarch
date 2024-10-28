@@ -73,6 +73,7 @@ then
 else 
 	echo "Grub and SDDM theme not installed."
 fi
+
 """
 browsel=$(dialog --stdout --inputbox "Install browsel for Private search and Web browser? [y/N]" 0 0) || exit 1
 if [[ $browsel =~ y ]]
