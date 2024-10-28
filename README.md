@@ -31,4 +31,7 @@ Running the installation script:
 ```bash
 cd installation_scripts && ./install.sh
 ```
+#### Note: 
+This rice is best optimized to run in VirtualBox
+
 
