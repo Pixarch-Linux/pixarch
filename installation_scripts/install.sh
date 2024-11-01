@@ -62,6 +62,9 @@ vim +PlugInstall +qall
 curl -sS https://starship.rs/install.sh | sh
 ln -sf ~/pixarch/config/starship.toml ~/.config/
 
+# Pixlock config 
+sudo cp ~/pixarch/applications/pixlock/* /bin/  
+
 
 theme=$(dialog --stdout --inputbox "Enter sudo password to copy Grub theme and SDDM theme to correct locations and fix the config files. Otherwise skip configuring both. Understand? [y/N]" 0 0) || exit 1
 if [[ $theme =~ y ]]

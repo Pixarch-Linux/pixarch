@@ -68,8 +68,10 @@ floating_modifier $mod
 bindsym $mod+Return exec alacritty
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
+# Lock screen 
+# bindsym $mod+Shift+q exec pixlock
 
 
 # start dmenu (a program launcher)

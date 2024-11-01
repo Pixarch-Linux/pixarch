@@ -2,6 +2,8 @@ set number
 syntax on
 set mouse=a
 set bg=dark
+set hlsearch 
+nnoremap <esc><esc> :silent! nohls<cr>
 
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
