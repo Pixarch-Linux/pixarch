@@ -84,3 +84,4 @@ Run ```install.sh``` and follow the prompts:
 On reboot you will be ready to go.
 
 Use MOD+space to open Rofi (Your App Launcher) and MOD+enter to open Alacritty (Your Terminal Emulator)
+can i make changes please uwu
