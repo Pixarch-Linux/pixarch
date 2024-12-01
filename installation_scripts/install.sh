@@ -48,6 +48,18 @@ else
 	echo "-- if you didn't install i3 or Qtile, you're on your own for a GUI."
 fi
 
+hyprland=$(dialog --stdout --inputbox "Install Hyprland? [y/N]" 0 0) || exit 1 
+clear 
+shopt -s nocasematch
+if [[ $hyprland =~ y ]]
+then 
+    sudo pacman -S hyprland --noconfirm
+		# Add config here 
+else
+    echo "-- Hyprland not installed"
+fi 
+
+
 ln -sf $LINKDOT/config/alacritty /home/$USER/.config/
 ln -sf $LINKDOT/config/lf /home/$USER/.config/
 ln -sf $LINKDOT/config/picom /home/$USER/.config/
