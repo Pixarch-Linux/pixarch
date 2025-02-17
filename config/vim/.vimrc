@@ -14,4 +14,3 @@ Plug 'joshdick/onedark.vim'
 Plug 'nordtheme/vim'
 call plug#end()
 "Nord theme is a bit buggy, feel free to change the theme if necessary 
-colorscheme nord
