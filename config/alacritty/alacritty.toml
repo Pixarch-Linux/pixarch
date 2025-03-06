@@ -1,3 +1,13 @@
+[cursor]
+blink_interval = 500
+unfocused_hollow = true
+thickness = 0.15
+
+[cursor.style]
+shape = "Beam"
+blinking = "Always"
+
+
 [colors.bright]
 black = "0x5c6370"
 blue = "0x61afef"
