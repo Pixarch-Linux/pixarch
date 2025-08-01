@@ -6,7 +6,7 @@ export LINKDOT=${PWD%/*}
 
 sudo pacman -S  go vim htop firefox xorg-server xorg-xinit xorg-xrdb xorg-xprop \
 		rofi exa pavucontrol tmux pamixer fzf xdg-user-dirs plank sddm lf \
-		feh git openssh alacritty picom polybar dash xss-lock dialog dex --needed --noconfirm
+		feh xorg-xrandr git openssh alacritty picom polybar dash xss-lock dialog dex --needed --noconfirm
 
 sudo ln -sfT dash /usr/bin/sh
 xdg-user-dir
