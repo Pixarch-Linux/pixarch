@@ -35,7 +35,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 #Set resolution 1920x1080
-exec --no-startup-id xrandr --output Virtual-1 --mode 1920x1080
+exec --no-startup-id xrandr --output Virtual-1 --mode 2560x1600
 
 #Execute Plank Dock
 #exec --no-startup-id plank
